@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FiloLab: pràctica de comentari de text per a Història de la Filosofia.">
+  <title>FiloLab · Desmunta el text</title>
+  <style>
+    :root{--ink:#18221d;--muted:#66726a;--paper:#f5f3ec;--card:#fffdf8;--line:#d9ddd4;--green:#315d3d;--mint:#e2ebe3;--gold:#d6a546;--red:#a6333a}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Arial,sans-serif}.wrap{width:min(100% - 36px,1050px);margin:auto}.site-header{background:#dce8dc;border-bottom:1px solid #ccd9cc}.topbar{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;color:inherit;text-decoration:none}.mark{display:grid;grid-template-columns:repeat(2,11px);gap:4px}.mark i{width:11px;height:11px;background:var(--green);border-radius:50%;display:block}.mark i:nth-child(2),.mark i:nth-child(3){background:var(--gold)}.brand strong{display:block;font-size:1.3rem;letter-spacing:-.04em}.brand span{display:block;font-size:.82rem;color:#486052}.back{color:var(--green);font-weight:700;text-decoration:none}.back:hover{text-decoration:underline}.hero{padding:62px 0 52px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}.eyebrow,.tag{font-size:.78rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--green)}h1,h2,h3{line-height:1.05;letter-spacing:-.05em;margin:.35em 0}h1{font-size:clamp(3rem,7vw,5.5rem)}h2{font-size:clamp(2rem,4vw,3rem)}h3{font-size:1.35rem}.lead{font-size:1.16rem;max-width:700px}.hero-card,.panel{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:26px}.hero-card p{margin:.45em 0}.flow{display:grid;gap:10px;margin-top:18px}.flow div{display:flex;gap:11px;align-items:center;padding:12px;background:#f1f5f0;border-radius:14px}.flow b{display:grid;place-items:center;width:29px;height:29px;background:var(--green);color:white;border-radius:50%}main{padding:36px 0 64px}.intro{display:flex;justify-content:space-between;gap:18px;align-items:end;margin-bottom:18px}.score{padding:8px 12px;border-radius:999px;background:var(--mint);color:var(--green);font-weight:800;white-space:nowrap}.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:20px 0}.tab{appearance:none;text-align:left;border:1px solid var(--line);border-radius:16px;background:white;padding:15px;color:var(--ink);font:inherit;font-weight:800;cursor:pointer}.tab small{display:block;font-weight:400;color:var(--muted);margin-top:4px}.tab.active{border:3px solid var(--green);padding:13px;background:#fbfdf9}.quiz{min-height:300px}.quiz-head{display:flex;justify-content:space-between;gap:18px;align-items:start}.dots{display:flex;gap:6px;padding-top:5px}.dots i{width:10px;height:10px;border-radius:50%;background:#d7dbd5}.dots i.current{background:var(--gold)}.question{font-size:1.16rem;max-width:760px}.options{display:grid;gap:9px;margin:22px 0}.option{width:100%;text-align:left;border:1px solid var(--line);border-radius:14px;background:white;color:var(--ink);padding:13px 15px;font:inherit;cursor:pointer}.option:hover,.option.selected{border-color:var(--green)}.option.selected{box-shadow:0 0 0 2px var(--green)}.option.correct{background:#e9f4e9;border-color:var(--green)}.option.wrong{background:#fff0f0;border-color:var(--red)}.option:disabled{cursor:default}.feedback{margin:16px 0;padding:15px;border-radius:14px}.feedback.ok{background:#e9f4e9;color:#254f31}.feedback.no{background:#fff0f0;color:#7d252c}.hidden{display:none!important}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:12px;padding:11px 16px;background:var(--green);color:white;font:inherit;font-weight:800;cursor:pointer}.btn.secondary{background:white;color:var(--ink);border:1px solid var(--line)}.note{margin-top:22px;padding:14px 16px;border-left:4px solid var(--gold);background:#fff9e9;color:#51462c}.footer{padding:28px 0 48px;color:var(--muted);font-size:.9rem}.footer a{color:inherit}@media(max-width:700px){.topbar,.intro{align-items:flex-start;flex-direction:column;padding:18px 0}.hero{grid-template-columns:1fr;padding:36px 0}.tabs{grid-template-columns:1fr}.quiz-head{flex-direction:column}.wrap{width:min(100% - 26px,1050px)}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="topbar">
+        <a class="brand" href="index.html" aria-label="Torna a la pàgina principal"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span><strong>FiloLab</strong><span>Idees, textos i arguments</span></span></a>
+        <a class="back" href="index.html">← Tornar a Connexions</a>
+      </div>
+      <div class="hero">
+        <div>
+          <div class="eyebrow">Mòdul de comentari de text</div>
+          <h1>Desmunta<br>el text.</h1>
+          <p class="lead">Abans de respondre, mira com funciona: què defensa, com ho justifica i quina informació et convé fer servir. No cal explicar-ho tot; cal anar al que importa.</p>
+        </div>
+        <aside class="hero-card">
+          <div class="tag">El recorregut</div>
+          <div class="flow"><div><b>1</b><span><strong>Detecta</strong><br>idees i conceptes clau</span></div><div><b>2</b><span><strong>Ordena</strong><br>el fil de l’argument</span></div><div><b>3</b><span><strong>Tria</strong><br>allò que és pertinent</span></div></div>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="intro"><div><div class="tag">Entrenament</div><h2>Prova, equivoca’t i torna-hi</h2><p class="lead">Són activitats curtes per preparar el comentari de text. La correcció t’explica el perquè, però no substitueix la lectura ni la revisió docent.</p></div><div class="score" id="score">0 encerts</div></div>
+    <div class="tabs" role="tablist" aria-label="Itineraris">
+      <button class="tab active" data-track="conceptes" role="tab"><strong>Conceptes</strong><small>Què vol dir cada idea dins d’un text?</small></button>
+      <button class="tab" data-track="arguments" role="tab"><strong>Arguments</strong><small>Com passa d’una idea a una conclusió?</small></button>
+      <button class="tab" data-track="pertinencia" role="tab"><strong>Al gra</strong><small>Què ajuda a respondre i què no?</small></button>
+    </div>
+    <section class="panel quiz" aria-live="polite">
+      <div class="quiz-head"><div><div class="tag" id="type"></div><h3 id="title"></h3></div><div class="dots" id="dots" aria-label="Progrés"></div></div>
+      <p class="question" id="question"></p>
+      <div class="options" id="options"></div>
+      <div class="feedback hidden" id="feedback"></div>
+      <div class="actions"><button class="btn" id="check">Comprova</button><button class="btn secondary hidden" id="next">Següent →</button><button class="btn secondary" id="restart">Torna a començar</button></div>
+      <p class="note">Pista: una resposta bona no és la que diu més coses, sinó la que respon bé a la pregunta i ho justifica amb el text.</p>
+    </section>
+  </main>
+  <footer class="wrap footer">Les respostes no s’envien enlloc: només es manté el recompte d’encerts mentre tens la pàgina oberta.</footer>
+
+  <script>
+    const bank={
+      conceptes:[
+        {type:"Concepte dins d’un text",title:"Què vol dir «bona voluntat»?",q:"Quan Kant diu que la bona voluntat és bona per si mateixa, què està defensant?",o:["Que sempre aconsegueix bons resultats","Que té valor encara que no produeixi el resultat esperat","Que la majoria de persones la consideren bona","Que consisteix a seguir els propis desitjos"],a:1,why:"Per a Kant, el valor moral de la bona voluntat no depèn de l’èxit ni de les conseqüències que s’obtinguin."},
+        {type:"Concepte dins d’un text",title:"No és una definició de diccionari",q:"Si et demanen el significat d’una expressió del fragment, què has de fer sobretot?",o:["Copiar una definició general","Explicar el sentit que pren en el text i per a aquell autor","Traduir-la al castellà","Explicar tota la filosofia de l’autor"],a:1,why:"La pregunta comprova si has entès l’ús de l’expressió dins del fragment, no si saps una definició descontextualitzada."},
+        {type:"Detecta la confusió",title:"Kant o Mill?",q:"«Una acció és moral quan genera la màxima felicitat per al màxim nombre de persones.» A qui correspon millor aquesta idea?",o:["Kant","Mill","Descartes","Nietzsche"],a:1,why:"El criteri de valorar les conseqüències sobre la felicitat general és propi de l’utilitarisme de Mill."}
+      ],
+      arguments:[
+        {type:"Estructura argumentativa",title:"Per on comença Descartes?",q:"Quina seqüència reconstrueix millor un argument sobre el dubte dels sentits?",o:["Els sentits enganyen de vegades → no és prudent confiar-hi plenament → algunes creences poden ser dubtoses","Algunes creences són dubtoses → els sentits sempre menteixen → no podem saber res","Descartes dubta → va néixer a França → els sentits enganyen","Els sentits enganyen → ja tenim una certesa absoluta"],a:0,why:"L’argument parteix de la possibilitat d’engany, en treu una regla de prudència i conclou que cal sotmetre certes creences al dubte."},
+        {type:"Tesi i raons",title:"No confonguis tesi i exemple",q:"En un comentari, quina afirmació descriu millor la tesi d’un text?",o:["Una dada biogràfica de l’autor","La idea principal que el text vol defensar","Una paraula difícil que hi apareix","La meva opinió sobre el tema"],a:1,why:"La tesi és l’afirmació central que l’autor defensa. Les raons i els exemples serveixen per sostenir-la."},
+        {type:"Fil de l’argument",title:"Quina frase fa avançar el raonament?",q:"En una resposta sobre un fragment, quina opció mostra una relació argumentativa i no una llista d’idees?",o:["Kant parla del deure, de la voluntat i de la moral","Kant va viure al segle XVIII i va escriure sobre moral","Com que el valor moral no depèn del resultat, Kant situa el criteri en la voluntat d’actuar per deure","La moral és un tema molt important"],a:2,why:"L’opció explica la relació entre dues idees i mostra per què una condueix a l’altra."}
+      ],
+      pertinencia:[
+        {type:"Al gra",title:"Què no hi pinta res?",q:"En una resposta sobre el dubte metòdic de Descartes, quina frase és menys pertinent?",o:["Els sentits de vegades ens poden enganyar","El dubte busca una certesa que resisteixi l’examen","Descartes va néixer a França l’any 1596","Cal revisar les creences que s’havien acceptat sense pensar"],a:2,why:"Pot ser una dada certa, però no ajuda a explicar el paper del dubte en l’argument del text."},
+        {type:"Al gra",title:"Resum no és enciclopèdia",q:"Un resum explica bé la tesi del fragment però hi afegeix una teoria de l’autor que no apareix al text. Què falla?",o:["Res: demostrar més coneixements sempre millora la resposta","El resum ha de limitar-se al que diu el text, encara que la informació afegida sigui correcta","Només falla si ocupa massa paraules","No falla si l’autor és conegut"],a:1,why:"En el resum, la clau és seleccionar les idees principals del fragment i la seva relació, no mostrar tot el que saps de l’autor."},
+        {type:"Aplica",title:"Del text al cas",q:"Per aplicar una idea filosòfica a una situació actual, què és imprescindible?",o:["Mencionar el nom de l’autor","Explicar com una idea concreta de l’autor ajuda a interpretar un element concret del cas","Dir que el tema és actual","Afirmar que hi ha moltes semblances"],a:1,why:"Aplicar no és citar: és fer servir una idea precisa per analitzar una situació precisa."}
+      ]
+    };
+    let track="conceptes",index=0,choice=null,score=0;
+    const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+    function render(){const list=bank[track],item=list[index];choice=null;$("type").textContent=item.type;$("title").textContent=item.title;$("question").textContent=item.q;$("options").innerHTML=item.o.map((x,i)=>`<button class="option" data-choice="${i}">${x}</button>`).join("");$("dots").innerHTML=list.map((_,i)=>`<i class="${i===index?"current":""}"></i>`).join("");$("feedback").className="feedback hidden";$("check").classList.remove("hidden");$("next").classList.add("hidden");$$('[data-choice]').forEach(b=>b.addEventListener('click',()=>{choice=Number(b.dataset.choice);$$('[data-choice]').forEach(x=>x.classList.toggle('selected',x===b))}))}
+    function check(){const item=bank[track][index];if(choice===null){$("feedback").textContent="Tria una opció abans de comprovar-la.";$("feedback").className="feedback no";return}const ok=choice===item.a;if(ok)score++;$("score").textContent=`${score} encert${score===1?"":"s"}`;$$('[data-choice]').forEach(b=>{const n=Number(b.dataset.choice);b.disabled=true;b.classList.toggle('correct',n===item.a);b.classList.toggle('wrong',n===choice&&n!==item.a)});$("feedback").innerHTML=`<strong>${ok?"Sí, exacte.":"Encara no."}</strong> ${item.why}`;$("feedback").className=`feedback ${ok?"ok":"no"}`;$("check").classList.add("hidden");$("next").classList.remove("hidden")}
+    function next(){index=(index+1)%bank[track].length;render()}
+    $$('.tab').forEach(b=>b.addEventListener('click',()=>{track=b.dataset.track;index=0;$$('.tab').forEach(x=>x.classList.toggle('active',x===b));render()}));$("check").addEventListener('click',check);$("next").addEventListener('click',next);$("restart").addEventListener('click',()=>{index=0;score=0;$("score").textContent="0 encerts";render()});render();
+  </script>
+</body>
+</html>
